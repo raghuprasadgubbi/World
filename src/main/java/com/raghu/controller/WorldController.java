@@ -60,11 +60,11 @@ public class WorldController {
 		return "Record Deleted";
 	}
 	
-	@PostMapping(path="/countries")
+	/*@PostMapping(path="/countries")
 	public ResponseEntity<Country> updateCountry(@RequestBody Country cty) {
 		repository.save(cty);
 		return new ResponseEntity<Country>(cty,HttpStatus.OK);
-	}
+	}*/
 	
 	
 }
